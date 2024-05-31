@@ -1,6 +1,6 @@
-//je créé la fonction add avec 2 paramet
+//je créé la fonction add avec 2 parametres
 function add(a, b) {
-    //je retourne la somme des 2 parametres Number est une fonction de javascript qui force une chaine de caractère en nombre
+    //Number convertie a et b en nombre
     return Number(a) + Number(b);
 }
 //j'appel la fonction
