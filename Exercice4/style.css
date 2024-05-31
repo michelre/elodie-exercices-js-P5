@@ -1,0 +1,28 @@
+
+
+header{
+box-shadow: rgb(0, 0, 0) 1px 1px 1px 1px;
+background-color: #FFCC99;
+}
+header h1{
+    text-align: center;
+    font-weight: bold;
+}
+main{
+  background-color: #E6F2FF ; 
+  display: flex;
+}
+aside{
+    background-color: #B3D9FF;
+    border: #CCC 1px solid;
+    flex: 1;
+}
+main section{
+    margin: 20px;
+    flex: 3;
+}
+footer{
+background-color: #99CC99;
+border: #CCC 1px solid;
+box-shadow:rgb(0, 0, 0) 1px 1px 1px 1px;
+}

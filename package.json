@@ -1,20 +1,25 @@
 {
   "name": "p5-exercice1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pour commencer le projet, lancez la commande `npm install` qui installera les dépendances du projet.",
   "main": "index.js",
   "scripts": {
     "start": "http-server -p 8080 -d",
-    "test": "cypress open"
+    "test": "cypress open",
+    "build-css": "sass styles.scss style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1",
-    "sass": "^1.75.0"
+    "lazy-ass": "^2.0.3"
   },
   "devDependencies": {
     "cypress": "^13.7.3",
-    "jest-environment-jsdom": "^29.7.0"
-  }
+    "jest-environment-jsdom": "^29.7.0",
+    "sass": "^1.77.4"
+  },
+  "keywords": []
+  
+  
 }
