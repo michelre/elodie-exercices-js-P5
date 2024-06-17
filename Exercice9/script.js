@@ -1,11 +1,15 @@
 function checkAge(age) {
     if (age < 18) {
         return "Vous êtes mineur.";
-    } else if (age < 65) {
-        return "Vous êtes majeur.";
-    } else {
-        return "Vous êtes senior.";
     }
+    if (age < 65) {
+        return "Vous êtes majeur.";
+    } 
+    return "Vous êtes senior.";
+
+    /**
+     * Pas besoin de else if / else dans le cas de if avec des returns
+     */
 }
 
 // Exemples d'utilisation
